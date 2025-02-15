@@ -1,0 +1,165 @@
+body {
+    background-color: #1f1e33;
+    color: antiquewhite;
+    font-family: 'ZEE Display Medium';
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    display: none;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(250,230,215,0.1);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(250,230,215,0.8);
+  }
+.topnav {
+    background-color: #1f1e33;
+    overflow: hidden;
+  }
+  .topnav a.section {
+    float: right;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a.section:hover {
+    background-color: antiquewhite;
+    color: #1f1e33;
+  }
+  .topnav a.logo {
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 300%;
+  }
+  p, img {
+    vertical-align: middle;
+  }
+a
+{
+    text-decoration: none;
+    color: antiquewhite;
+}
+a:hover {
+    text-shadow: 0 0 8px antiquewhite;
+}
+.prelude {
+    position: relative;
+}
+.preview {
+    z-index: -0.5;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    height: fit-content;
+    max-height: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 150%;
+    overflow-y: auto;
+    text-overflow: auto;
+}
+.guideintro {
+    z-index: -0.5;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    height: fit-content;
+    max-height: 90%;
+    overflow-y: auto;
+    text-overflow: auto;
+}
+img.gradleft{
+    width: 100%;
+    z-index: -1;
+    -webkit-mask-image:-webkit-gradient(linear, left top , right top , from(rgba(0,0,0,0)), to(rgba(0,0,0,0.6)));
+      mask-image: linear-gradient(to left, rgba(0,0,0,0.6), 0%, rgba(0,0,0,0), 70%);
+}
+img.gradbot{
+  width: 100%;
+  z-index: -1;
+  -webkit-mask-image:-webkit-gradient(linear, left top , left bottom , from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0)));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0.6), 0%, rgba(0,0,0,0), 70%);
+}
+.content {
+   overflow: auto;
+    height: 50%;
+    vertical-align: middle;
+}
+.article1, .article2, .article3 {
+    float: left;
+    text-align: center;
+    width: 27%;
+    height: 50%;
+    padding: 3%;
+    background-color: #1f1e33;
+    overflow-y: auto;
+}
+.article1:hover, .article2:hover, .article3:hover {
+    background-color: antiquewhite;
+    color: #1f1e33;
+}
+.footer {
+    background-color: #1f1e33;
+    color: antiquewhite;
+    text-align: center;
+    padding: 1%;
+    font-size: 80%;
+    width: 100%;
+}
+.guideintro {
+    text-align: center;
+    padding: 1%;
+    font-size: 150%;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 10%;
+}
+tr {
+    height: 10%;
+}
+th {
+    padding: 1%;
+    border: 1px solid antiquewhite;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+td {
+    padding: 1%;
+    border: 1px solid antiquewhite;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+}
+.doublebuttons {
+   width: 10%;
+}
+.singlebuttons {
+    width: 20%;
+}
+.combobuttons {
+  width: 8%;
+}
+.comboactions {
+  height: 100%;
+  vertical-align: middle;
+}
+th[scope="row"] {
+    width: 15%;
+}
+th[scope="col"] {
+  width: 32.5%;
+}
